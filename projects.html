@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects | Francis Mangala</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">FM</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a class="active" href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h1>Projects</h1>
+      <p class="subtitle">Apps, dashboards, and analytics work across Streamlit, Dash, Tableau, Power BI, and Excel.</p>
+
+      <div class="grid cards">
+        <!-- Duplicate a card block for each project -->
+        <article class="card">
+          <img src="assets/img/project_freedom_index.png" alt="Freedom Index Dashboard screenshot" />
+          <div class="card-body">
+            <h3>Global Freedom Index Dashboard</h3>
+            <p>Explores freedom indicators with filters, trends, and KPIs.</p>
+            <div class="tags">
+              <span>Streamlit</span><span>Plotly</span><span>Pandas</span>
+            </div>
+            <div class="card-actions">
+              <a class="btn small" href="#" target="_blank" rel="noopener">Live Demo</a>
+              <a class="btn small ghost" href="#" target="_blank" rel="noopener">Repo</a>
+              <a class="btn small ghost" href="#" target="_blank" rel="noopener">Case Study</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-body">
+            <h3>Tableau Dashboard Collection</h3>
+            <p>Interactive dashboards with KPIs, drill-downs, and animated visuals.</p>
+            <div class="tags">
+              <span>Tableau</span><span>BI</span><span>Storytelling</span>
+            </div>
+            <div class="card-actions">
+              <a class="btn small" href="#" target="_blank" rel="noopener">Tableau Public</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-body">
+            <h3>Power BI Reports</h3>
+            <p>Operational and executive reports with DAX measures and performance tuning.</p>
+            <div class="tags">
+              <span>Power BI</span><span>DAX</span><span>Power Query</span>
+            </div>
+            <div class="card-actions">
+              <a class="btn small" href="#" target="_blank" rel="noopener">Gallery</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Francis Mangala</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
