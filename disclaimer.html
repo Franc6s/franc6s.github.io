@@ -1,66 +1,93 @@
-<section id="disclaimer" class="disclaimer-section">
-  <h1>Data Disclaimer</h1>
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- PSEUDOCODE:
+    - Load styles
+    - Provide disclaimer content to reduce risk and set expectations
+  -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Disclaimer | Francis Mangala</title>
+  <meta name="description" content="Disclaimer for this portfolio website and related demos." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
 
-  <p>
-    This application is provided for demonstration, educational, and informational purposes only.
-  </p>
+<body>
+  <!-- PSEUDOCODE:
+    - Same header/nav as other pages for consistency
+    - Mark Disclaimer as active
+  -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">FM</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a class="active" href="disclaimer.html">Disclaimer</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
 
-  <p>
-    The data presented in this application may be synthetic, aggregated, publicly available, outdated,
-    incomplete, or subject to error, and should not be considered authoritative, official, or suitable
-    for decision-making.
-  </p>
+  <main class="section">
+    <div class="container">
+      <h1>Disclaimer</h1>
+      <p class="subtitle">
+        This website is a personal portfolio for showcasing data projects, dashboards, and demonstration applications.
+      </p>
 
-  <p>
-    The creator makes no warranties or guarantees regarding the accuracy, completeness, reliability,
-    or timeliness of the data or visualizations displayed.
-  </p>
+      <div class="panel">
+        <h2>Informational purposes only</h2>
+        <p>
+          The content and demos presented on this website are provided for informational and demonstration purposes only.
+          They do not constitute professional, legal, medical, or financial advice.
+        </p>
 
-  <p>
-    This application does not represent any government agency, organization, or official institution,
-    and the views and analyses expressed are solely those of the creator.
-  </p>
+        <h2>Data sources </h2>
+        <p>
+         Data used in this application originates from publicly available or third-party sources. All trademarks, data rights, and copyrights remain the property of their respective owners.
 
-  <p>
-    Users assume full responsibility for any use of the information provided. The creator shall not be
-    held liable for any damages, losses, or claims arising from the use or misuse of this application or
-    its contents.
-  </p>
+        This project is not affiliated with, endorsed by, or sponsored by any data provider.
+        </p>
 
-  <h2>Data Source</h2>
+        <h2>No confidential or sensitive data</h2>
+        <p>
+          No confidential, proprietary, or sensitive client/government data is intentionally displayed. Any resemblance
+          to real persons, organizations, or events in sample data is coincidental unless explicitly stated.
+        </p>
 
-  <p>
-    Data used in this application originates from publicly available or third-party sources.
-    All trademarks, data rights, and copyrights remain the property of their respective owners.
-  </p>
+        <h2>External links</h2>
+        <p>
+          This website may link to third-party sites (e.g., GitHub repos, hosted demos, Tableau Public). I am not
+          responsible for the content, availability, or privacy practices of external sites.
+        </p>
 
-  <p>
-    This project is not affiliated with, endorsed by, or sponsored by any data provider.
-  </p>
+        <h2>Non-Commercial Use</h2>
+        <p>
+          This website is a non-commercial portfolio project showcase intended solely to demonstrate data analysis and visualization capabilities.
+        </p>
 
-  <p>
-    Website:
-    <a href="https://freedomhouse.org/report/freedom-world" target="_blank" rel="noopener noreferrer">
-      https://freedomhouse.org/report/freedom-world
-    </a>
-  </p>
+        <h2>Use at your own risk</h2>
+        <p>
+          Use of this website and any linked demos is at your own risk. I am not liable for any loss, damage, or issues
+          arising from the use of the information, code, or tools provided.
+        </p>
 
-  <ul>
-    <li>Freedom House — Freedom in the World (FIW) dataset (editions 2013–2025 in the provided sheet).</li>
-    <li>
-      Columns used include: Total Score, Political Rights score, Civil Liberties score,
-      Freedom Status, Region, and others.
-    </li>
-  </ul>
+        <p class="note">
+          If you believe any content should be updated or removed, please contact me via the Contact page.
+        </p>
+      </div>
+    </div>
+  </main>
 
-  <h2>Non-Commercial Use</h2>
-  <p>
-    This application is a non-commercial portfolio project intended solely to demonstrate data
-    analysis and visualization capabilities.
-  </p>
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Francis Mangala • <a class="text-link" href="disclaimer.html">Disclaimer</a></p>
+    </div>
+  </footer>
 
-  <h2>No Professional Advice</h2>
-  <p>
-    Nothing in this application constitutes legal, medical, financial, or policy advice.
-  </p>
-</section>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
