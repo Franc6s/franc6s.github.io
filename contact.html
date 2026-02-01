@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- PSEUDOCODE:
+    - Basic page metadata + shared stylesheet
+  -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact | Francis Mangala</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+  <!-- PSEUDOCODE:
+    - Shared navigation with active Contact highlight
+  -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">FM</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a class="active" href="contact.html">Contact</a>
+        <a href="disclaimer.html">Disclaimer</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <!-- PSEUDOCODE:
+        - Provide easy, fast contact methods
+        - mailto link opens user’s email client
+        - external links open in new tab
+      -->
+      <h1>Contact</h1>
+      <p class="subtitle">Best way to reach me:</p>
+
+      <div class="panel">
+        <p><strong>Email:</strong> <a href="mailto:mangalaf@outlook.com">mangalaf@outlook.com</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/francismangala/" target="_blank" rel="noopener">LinkedIn</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/VizualOptima?tab=repositories" target="_blank" rel="noopener">GitHub</a></p>
+      </div>
+
+      <p class="note">Tip: If you want a contact form, use Formspree later (optional). For now, email + LinkedIn is enough.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Francis Mangala</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
